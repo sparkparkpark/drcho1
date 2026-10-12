@@ -1,0 +1,156 @@
+{
+ "papers": [
+  "He B, Kwan AC, Cho JH, Yuan N, Pollick C, Shiota T, Ebinger J, Bello NA, Wei J, Josan K, Duffy G, Jujjavarapu M, Siegel R, Cheng S, Zou JY, Ouyang D. Blinded, randomized trial of sonographer versus AI cardiac function assessment. Nature. 2023 Apr 5. doi: 10.1038/s41586-023-05947-3. Online ahead of print. PMID: 37020027",
+  "Kim MY, Pellot I, Bresee C, Nawaz A, Fournier M, Cho JH, Cingolani E. Diet modification reverses diastolic dysfunction in rats with heart failure and preserved ejection fraction. JMCC Plus. March 2023 Volume 3.",
+  "Zhang R, Mesquita T, Cho JH, Li C, Sanchez L, Holm K, Akhmerov A, Liu W, Li Y, Ibrahim AG, Cingolani E. Systemic Delivery of Extracellular Vesicles Attenuates Atrial Fibrillation in Heart Failure With Preserved Ejection Fraction. JACC Clin Electrophysiol. 2023 Feb;9(2):147-158. doi: 10.1016/j.jacep.2022.09.012. Epub 2022 Nov 30. PMID: 36858679",
+  "Mesquita T, Zhang R, Cho JH, Zhang R, Lin YN, Sanchez L, Goldhaber JI, Yu JK, Liang JA, Liu W, Trayanova NA, Cingolani E. Mechanisms of Sinoatrial Node Dysfunction in Heart Failure with Preserved Ejection Fraction. Circulation. 2022 Jan 4;145(1):45-60. doi: 10.1161/CIRCULATIONAHA.121.054976. Epub 2021 Dec 14. PMID: 34905696",
+  "Cho JH, Leong D, Cuk N, Ebinger JE, Bresee C, Yoon SH, Ehdaie A, Shehata M, Wang X, Chugh SS, Marbán E, Cingolani E. Delayed repolarization and ventricular tachycardia in patients with heart failure and preserved ejection fraction. PLoS One. 2021 Jul 13;16(7):e0254641. doi: 10.1371/journal.pone.0254641. eCollection 2021. PMID: 34255806",
+  "Cho JH, Namazi A, Shelton R, Ramireddy A, Ehdaie A, Shehata M, Wang X, Marbán E, Chugh SS, Cingolani E. Cardiac arrhythmias in hospitalized patients with COVID-19: A prospective observational study in the western United States. PLoS One. 2020 Dec 28;15(12):e0244533. doi: 10.1371/journal.pone.0244533. PMID: 33370347; PMCID: PMC7769280.",
+  "Shelton R, Cho JH, Joshi S, Betzold R, Shehata M, Ehdaie A, Swerdlow C. Treatment of atypical pacemaker-mediated tachycardia with ablation of the retrograde atrioventricular nodal pathway. J Cardiovasc Electrophysiol. 2020 May;31(5):1213-1217. doi: 10.1111/jce.14424. Epub 2020 Mar 9. PMID: 32108404.",
+  "Cho JH, Zhang R, Aynaszyan S, Holm K, Goldhaber JI, Marbán E, Cingolani E. Ventricular Arrhythmias Underlie Sudden Death in Rats With Heart Failure and Preserved Ejection Fraction. Circ Arrhythm Electrophysiol. 2018 Aug;11(8):e006452. doi: 10.1161/CIRCEP.118.006452. PMID: 30030266; PMCID: PMC6091890.",
+  "Cho JH, Zhang R, Kilfoil PJ, Gallet R, de Couto G, Bresee C, Goldhaber JI, Marbán E, Cingolani E. Delayed Repolarization Underlies Ventricular Arrhythmias in Rats With Heart Failure and Preserved Ejection Fraction. Circulation. 2017 Nov 21;136(21):2037-2050. doi: 10.1161/CIRCULATIONAHA.117.028202. Epub 2017 Oct 3. PMID: 28974519; PMCID: PMC5698112.",
+  "Grigorian-Shamagian L, Liu W, Fereydooni S, Middleton RC, Valle J, Cho JH, Marbán E. Cardiac and systemic rejuvenation after cardiosphere-derived cell therapy in senescent rats. Eur Heart J. 2017 Oct 14;38(39):2957-2967. doi: 10.1093/eurheartj/ehx454. PMID: 29020403; PMCID: PMC5837602.",
+  "Cho JH, Youn SJ, Moore JC, Kyriakakis R, Vekstein C, Militello M, Poe SM, Wolski K, Tchou PJ, Varma N, Niebauer MJ, Bhargava M, Saliba WI, Wazni OM, Lindsay BD, Wilkoff BL, Chung MK. Safety of Oral Dofetilide Reloading for Treatment of Atrial Arrhythmias. Circ Arrhythm Electrophysiol. 2017 Oct;10(10):e005333. doi: 10.1161/CIRCEP.117.005333. PMID: 29038104; PMCID: PMC5685174.",
+  "Cho JH, Selen MA, Kocheril AG. Screening of young competitive athletes for the prevention of sudden cardiac death with a wireless electrocardiographic transmission device: a pilot study. BMC Res Notes. 2015 Aug 11;8:342. doi: 10.1186/s13104-015-1311-9. PMID: 26260154; PMCID: PMC4531846.",
+  "Jae Hyung Cho, Srinivasan Sattiraju, Sanjay Mehta, L. Scott Cook and Woubeshet Ayenew. Surgical Removal of Left Atrial Appendage Thrombus in a Patient with Acute Ischemic Stroke. Heart Research Open Journal, 2015, 2(3):100-102",
+  "Cho JH, Kaw R, Chhabra J, Kola S, Mahata I, Shahani S, Kocheril AG. Prognostic implications of diastolic dysfunction in patients with acute pulmonary embolism. BMC Res Notes. 2014 Sep 6;7:610. doi: 10.1186/1756-0500-7-610. PMID: 25194763; PMCID: PMC4167149.",
+  "Cho JH, Kutti Sridharan G, Kim SH, Kaw R, Abburi T, Irfan A, Kocheril AG. Right ventricular dysfunction as an echocardiographic prognostic factor in hemodynamically stable patients with acute pulmonary embolism: a meta-analysis. BMC Cardiovasc Disord. 2014 May 6;14:64. doi: 10.1186/1471-2261-14-64. PMID: 24884693; PMCID: PMC4029836.",
+  "Cho JH, Sattiraju S, Colla M, Mehta S, Missov E. A classically enlarged cardiac silhouette. Am J Med. 2013 Dec;126(12):e5-6. doi: 10.1016/j.amjmed.2013.07.005. Epub 2013 Sep 25. PMID: 24075354.",
+  "Cho JH, Brockenbrough K. Right main pulmonary artery thrombus after type a aortic dissection repair. Ann Thorac Cardiovasc Surg. 2014;20 Suppl:794-6. doi: 10.5761/atcs.cr.13-00067. Epub 2013 Oct 3. PMID: 24088907.",
+  "Cho JH, Holley JL. Squamous cell carcinoma of the bladder in a female associated with multiple bladder stones. BMC Res Notes. 2013 Sep 4;6:354. doi: 10.1186/1756-0500-6-354. PMID: 24007445; PMCID: PMC3848612.",
+  "Jae Hyung Cho, Digant Bhatt, Andrea V. Brasch, Sanjay S. Mehta. Postpartum Impending Paradoxical Embolism. Carle Selected Papers, 2013 Apr; 55(2): 23-25",
+  "Cho JH, Sattiraju S, Mehta S, Missov E. Delayed ventricular septal rupture complicating acute inferior wall myocardial infarction. BMC Res Notes. 2013 Mar 28;6:124. doi: 10.1186/1756-0500-6-124. PMID: 23537320; PMCID: PMC3620691.",
+  "Irfan A, Hublikar S, Cho JH, Hill J. The value of history and goals of care with code status; even in an emergency setting. BMJ Case Rep. 2013 Jan 25;2013:bcr2012006962. doi: 10.1136/bcr-2012-006962. PMID: 23355556; PMCID: PMC3604545.",
+  "Lee SY, Kim DK, Cho JH, Koh JY, Yoon YH. Inhibitory effect of bevacizumab on the angiogenesis and growth of retinoblastoma. Arch Ophthalmol. 2008 Jul;126(7):953-8. doi: 10.1001/archopht.126.7.953. PMID: 18625942.",
+  "Hwang JJ, Lee SJ, Kim TY, Cho JH, Koh JY. Zinc and 4-hydroxy-2-nonenal mediate lysosomal membrane permeabilization induced by H2O2 in cultured hippocampal neurons. J Neurosci. 2008 Mar 19;28(12):3114-22. doi: 10.1523/JNEUROSCI.0199-08.2008. PMID: 18354014; PMCID: PMC6670692."
+ ],
+ "reviews": [
+  "Cho JH. Sudden Death and Ventricular Arrhythmias in Heart Failure With Preserved Ejection Fraction. Korean Circ J. 2022 Apr;52(4):251-264. doi: 10.4070/kcj.2021.0420. Review. PMID: 35388994; PMCID: PMC8989786",
+  "Jae Hyung Cho, Affan Irfan, Abraham G. Kocheril. The Effects of Music on The Heart. Carle Selected Papers, 2013 Apr; 55(2): 9-12"
+ ],
+ "book": [
+  "Jae Hyung Cho, Christer Sylven, Eugenio Cingolani. Gene and cell therapy for the treatment of cardiac arrhythmia. In: Arytmier, 2019"
+ ],
+ "abstracts": [
+  {
+   "t": "The effects of diet modification on the progression of heart failure with preserved ejection fraction",
+   "a": "Jae Hyung Cho, Isabelle Pellot, Myung Yoon Kim, Asma Nawaz, Eduardo Marbán, Eugenio Cingolani",
+   "v": "Basic Cardiovascular Sciences Scientific Sessions, Chicago, IL, USA, July 27, 2022"
+  },
+  {
+   "t": "High-salt diet increases blood cholesterol: Potential role of hepatic enzyme CYP51",
+   "a": "Myung Yoon Kim, Asma Nawaz, Isabelle Pellot, Prediman K. Shah, Eugenio Cingolani, Eduardo Marbán, Jae Hyung Cho",
+   "v": "Basic Cardiovascular Sciences Scientific Sessions, Chicago, IL, USA, July 27, 2022"
+  },
+  {
+   "t": "MicroRNA-16 mediates anti-fibrotic effects of cardiosphere-derived cells in rats with heart failure and preserved ejection fraction",
+   "a": "Jae Hyung Cho, Alex Rajewski, Thassio Mesquita, Ahmed Ibrahim, Russell Rogers, Isabelle Pellot, Weixin Liu, Lizbeth Sanchez, Eugenio Cingolani, Eduardo Marbán",
+   "v": "American College of Cardiology Scientific Sessions, Washington D.C., USA, April 2, 2022"
+  },
+  {
+   "t": "Incidence of cardiac arrhythmias in patients with COVID-19: A meta-analysis",
+   "a": "Sean Kim, Isabelle Pellot, MyungYoon Kim, Jae Hyung Cho, Eugenio Cingolani",
+   "v": "American College of Cardiology Scientific Sessions, Washington D.C., USA, April 2, 2022"
+  },
+  {
+   "t": "Cardiac arrhythmias in hospitalized patients with COVID-19",
+   "a": "Jae Hyung Cho, Ali Namazi, Richard Shelton, Archana Ramireddy, Ashkan Ehdaie, Michael Shehata, Xunzhang Wang, Eduardo Marbán, Sumeet S. Chugh, Eugenio Cingolani",
+   "v": "American Heart Association Scientific Sessions, USA, November 13, 2020"
+  },
+  {
+   "t": "Rhythm disturbances in patients with cardiac amyloidosis: Analysis from Cedars-Sinai amyloidosis registry",
+   "a": "Jae Hyung Cho, Natasha Cuk, Derek Leong, Ashkan Ehdaie, Eugenio Cingolani, Michael Shehata, Jignesh Patel",
+   "v": "American Heart Association Scientific Sessions, USA, November 13, 2020"
+  },
+  {
+   "t": "Decreased Heart Rate Variability and Sudden Cardiac Death in a Rat Model of Heart Failure with Preserved Ejection Fraction",
+   "a": "Jae Hyung Cho, Kevin J. Holm, Stephan Aynaszyan, Joshua I. Goldhaber, Eduardo Marbán, Eugenio Cingolani",
+   "v": "Heart Rhythm Society Scientific Sessions, Boston, MA, USA, May 12, 2018"
+  },
+  {
+   "t": "Cardiosphere-Derived Cells Reduce Ventricular Arrhythmias and Prolong Survival of Rats with Heart Failure and Preserved Ejection Fraction",
+   "a": "Jae Hyung Cho, Peter J. Kilfoil, Ryan Solymani, Kristin Luther, Russell G. Rogers, Geoffrey de Couto, Rui Zhang, Lizbeth Sanchez, Joshua I. Goldhaber, Eduardo Marbán, Eugenio Cingolani",
+   "v": "Heart Rhythm Society Scientific Sessions, Boston, MA, USA, May 11, 2018"
+  },
+  {
+   "t": "Chronotropic Incompetence in a Rat Model of Heart Failure with Preserved Ejection Fraction",
+   "a": "Jae Hyung Cho, Lilian Grigorian, Russell G. Rogers, Joshua I. Goldhaber, Eduardo Marbán, Eugenio Cingolani",
+   "v": "American Heart Association Scientific Sessions, Anaheim, CA, USA, November 14, 2017"
+  },
+  {
+   "t": "Anti-arrhythmic Effects of Heart-Derived Cell Therapy in a Rat Model of Heart Failure with Preserved Ejection Fraction",
+   "a": "Jae Hyung Cho, Peter J. Kilfoil, Ryan Solymani, Kristin Luther, Russell G. Rogers, Geoffrey de Couto, Rui Zhang, Lizbeth Sanchez, Joshua I. Goldhaber, Eduardo Marbán, Eugenio Cingolani",
+   "v": "American Heart Association Scientific Sessions, Anaheim, CA, USA, November 12, 2017"
+  },
+  {
+   "t": "Abnormal Repolarization and Increased Susceptibility to Ventricular Arrhythmias in a Rat Model of Heart Failure with Preserved Ejection Fraction",
+   "a": "Jae Hyung Cho, Rui Zhang, Romain Gallet, Geoffrey de Couto, Eduardo Marbán, Joshua Goldhaber, Eugenio Cingolani",
+   "v": "Heart Rhythm Society Scientific Sessions, Chicago, IL, USA, May 11, 2017"
+  },
+  {
+   "t": "Abnormal Repolarization and Increased Susceptibility to Ventricular Arrhythmias in a Rat Model of Heart Failure with Preserved Ejection Fraction",
+   "a": "Jae Hyung Cho, Rui Zhang, Romain Gallet, Geoffrey de Couto, Eduardo Marbán, Joshua Goldhaber, Eugenio Cingolani",
+   "v": "American Heart Association Scientific Sessions, New Orleans, LA, USA, November 15, 2016"
+  },
+  {
+   "t": "Improvement of Diastolic Function by Exosome Injection in a Rat Model of Heart Failure with Preserved Ejection Fraction",
+   "a": "Jae Hyung Cho, Romain Gallet, Geoffrey de Couto, Lizbeth Sanchez, Eduardo Marbán, Eugenio Cingolani",
+   "v": "American Heart Association Scientific Sessions, New Orleans, LA, USA, November 13, 2016"
+  },
+  {
+   "t": "Safety of Oral Dofetilide Reloading Compared to Initial Loading for Treatment of Atrial Arrhythmias",
+   "a": "Jae Hyung Cho, JoEllyn M. Abraham, Roxanne Kyriakakis, Patrick J. Tchou, Mandeep Bhargava, Walid I. Saliba, Bruce L. Wilkoff, Mina K. Chung",
+   "v": "American College of Cardiology Scientific Sessions, San Diego, CA, USA, March 15, 2015"
+  },
+  {
+   "t": "Impact of Diastolic Dysfunction on Post-Operative Outcomes after Cardiac Surgery: A Meta-Analysis",
+   "a": "Jae Hyung Cho, Adrian V. Hernandez, Vinay Pasupuleti, Abhishek Deshpande, Vijaiganesh Nagarajan, Hector Bueno, John PA Ioannidis, Eric H. Boersma, Roop Kaw",
+   "v": "American College of Cardiology Scientific Sessions, San Diego, CA, USA, March 14, 2015"
+  },
+  {
+   "t": "Pre-participation Screening of Young Competitive Athletes for the Prevention of Sudden Cardiac Death Using a New Electrocardiographic Device",
+   "a": "Jae Hyung Cho, Mats A. Selen, Abraham G. Kocheril",
+   "v": "American Heart Association Scientific Sessions, Chicago, IL, USA, November 18, 2014"
+  },
+  {
+   "t": "Diastolic Dysfunction as a Poor Prognostic Factor in Patients with Acute Pulmonary Embolism",
+   "a": "Jae Hyung Cho, Abraham G. Kocheril",
+   "v": "Society of Hospital Medicine, Las Vegas, NV, USA, March 25, 2014"
+  },
+  {
+   "t": "Diastolic Dysfunction as a Prognostic Factor in Patients With Acute Pulmonary Embolism",
+   "a": "Jae Hyung Cho, Jatin Chhabra, Snigdha Kola, Indrajeet Mahata, Shobha Shahani, Abraham G. Kocheril",
+   "v": "College of Medicine Research Symposium, University of Illinois at Urbana-Champaign, Urbana, IL, USA, April 24, 2013"
+  },
+  {
+   "t": "Right Main Pulmonary Artery Thrombus After Type A Aortic Dissection Repair",
+   "a": "Jae Hyung Cho, Kimberly Brockenbrough",
+   "v": "American College of Physicians National Meeting, San Francisco, CA, USA, April 12, 2013"
+  },
+  {
+   "t": "Right Ventricular Dysfunction as an Echocardiographic Prognostic Factor in Hemodynamically Stable Patients with Acute Pulmonary Embolism: a meta-analysis",
+   "a": "Jae Hyung Cho, Gurusaravanan Kutti Sridharan, Seon Ha Kim, Triveni Abburi, Affan Irfan, Abraham G. Kocheril",
+   "v": "American College of Physicians Illinois Chapter Meeting, Springfield, IL, USA, October 26, 2012"
+  },
+  {
+   "t": "The Impact of Ischemia-Guided Percutaneous Coronary Intervention on Major Cardiovascular Adverse Events",
+   "a": "Jae Hyung Cho, Young-Hak Kim, Jung-Min Ahn, Seung-Jung Park",
+   "v": "College of Medicine Research Symposium, University of Illinois at Urbana-Champaign, Urbana, IL, USA, April 19, 2012"
+  },
+  {
+   "t": "Right Ventricular Dysfunction as an Echocardiographic Prognostic Factor in Hemodynamically Stable Patients with Acute Pulmonary Embolism: a meta-analysis",
+   "a": "Jae Hyung Cho, Gurusaravanan Kutti Sridharan, Seon Ha Kim, Triveni Abburi, Abraham G. Kocheril",
+   "v": "College of Medicine Research Symposium, University of Illinois at Urbana-Champaign, Urbana, IL, USA, April 19, 2012"
+  },
+  {
+   "t": "Hyperkalemia in Hospitalized Patients",
+   "a": "Fahad Saeed, Muhammad Omer Toor, Noaman Siddiqi, Digant V. Bhatt, Jae Hyung Cho, Nadia Kousar, Jean L. Holley",
+   "v": "American Society of Nephrology Kidney Week, Philadelphia, PA, USA, November 11, 2011"
+  },
+  {
+   "t": "The Impact of Ischemia-Guided Percutaneous Coronary Intervention on Major Adverse Cardiovascular Events",
+   "a": "Jae Hyung Cho, Young-Hak Kim, Jung-Min Ahn, Seung-Jung Park",
+   "v": "American College of Physicians Illinois Chapter Meeting, Peoria, IL, USA, October 26, 2011"
+  }
+ ]
+}
