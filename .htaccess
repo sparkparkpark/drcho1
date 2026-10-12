@@ -1,0 +1,85 @@
+# ==========================================================
+#  조재형 심장내과 - 보안 설정 (Cafe24 / Apache)
+# ==========================================================
+
+# 폴더 목록 노출 금지
+Options -Indexes
+
+# 서버 버전 정보 숨기기
+ServerSignature Off
+
+# ----------------------------------------------------------
+#  HTTPS 강제 이동
+#  ※ 카페24에서 SSL 인증서 설치가 "완료된 후"에
+#    아래 3줄 앞의 # 을 지우세요. (SSL 전에 켜면 사이트가 안 열립니다)
+# ----------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # RewriteCond %{HTTPS} !=on
+  # RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  # RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+
+# ----------------------------------------------------------
+#  숨김 파일 / 작업용 파일 접근 차단
+#  (.git, .DS_Store, tools 폴더, 빌드 스크립트 등)
+# ----------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteRule (^|/)\. - [F,L]
+  RewriteRule ^tools(/|$) - [F,L]
+</IfModule>
+<FilesMatch "\.(py|json|md|log|bak|sh|ini|sql)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+# ----------------------------------------------------------
+#  브라우저 보안 헤더
+# ----------------------------------------------------------
+<IfModule mod_headers.c>
+  # 파일 형식 위장 방지
+  Header always set X-Content-Type-Options "nosniff"
+
+  # 다른 사이트가 이 페이지를 iframe으로 몰래 띄우는 것 차단
+  Header always set X-Frame-Options "SAMEORIGIN"
+
+  # 외부로 나갈 때 전체 주소 노출 최소화
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # 카메라/마이크/위치/결제 등 브라우저 권한 사용 안 함
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+
+  # 허용된 곳에서만 스크립트·스타일·이미지·영상·지도 불러오기
+  #  - 폰트: cdn.jsdelivr.net (Pretendard)
+  #  - 영상 썸네일: i.ytimg.com / 영상 재생: youtube-nocookie.com
+  #  - 지도: Google Maps
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' https://cdn.jsdelivr.net; font-src 'self' https://cdn.jsdelivr.net data:; img-src 'self' https://i.ytimg.com data:; frame-src https://www.youtube-nocookie.com https://www.google.com https://maps.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests"
+
+  # HSTS (항상 HTTPS로만 접속) - SSL 설치 완료 + 위 HTTPS 이동을 켠 뒤에 # 을 지우세요
+  # Header always set Strict-Transport-Security "max-age=31536000"
+</IfModule>
+
+# ----------------------------------------------------------
+#  캐시 (재방문 시 빠르게 로딩)
+# ----------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 0 seconds"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType text/javascript "access plus 7 days"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+</IfModule>
+
+AddDefaultCharset UTF-8
+AddType image/webp .webp
+AddType image/svg+xml .svg
