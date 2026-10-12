@@ -1,7 +1,13 @@
 # Regenerates the site pages from shared templates.
 # Usage (from the project root): python3 tools/build.py .
-import sys, os, html
+import sys, os, html, hashlib
 OUT = sys.argv[1]
+
+
+def ver(name):
+    # Content hash appended to asset URLs so browsers refetch them after each change.
+    with open(os.path.join(OUT, name), "rb") as f:
+        return hashlib.md5(f.read()).hexdigest()[:8]
 
 PHONE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>'
 PIN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>'
@@ -25,7 +31,7 @@ def head(title, desc, schema=False):
   <meta property="og:image" content="assets/dr-cho-portrait.jpg" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v={ver('styles.css')}" />
 '''
     if schema:
         s += '''  <script type="application/ld+json">
@@ -142,7 +148,7 @@ FOOTER = f'''  </main>
       <div class="modal__frame"></div>
     </div>
   </div>
-  <script src="script.js"></script>
+  <script src="script.js?v={ver('script.js')}"></script>
 </body>
 </html>
 '''
