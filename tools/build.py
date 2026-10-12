@@ -554,8 +554,7 @@ services = head("진료 안내 | 조재형 심장내과", "고혈압, 고지혈�
     <section class="section">
       <div class="container">
         <div class="section__head reveal">
-          <p class="section__kicker" data-i18n="svc.kicker">진료 분야</p>
-          <h2 class="section__title" data-i18n="svc.title">심장 질환의 진단부터 관리까지, 한 곳에서</h2>
+          <p class="section__kicker section__kicker--lg" data-i18n="svc.kicker">진료 분야</p>
         </div>
         <div class="cards">
 {cards_html()}
