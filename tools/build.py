@@ -22,7 +22,7 @@ def head(title, desc, schema=False):
   <meta name="description" content="{desc}" />
   <meta property="og:title" content="{title}" />
   <meta property="og:description" content="{desc}" />
-  <meta property="og:image" content="assets/dr-cho.webp" />
+  <meta property="og:image" content="assets/dr-cho-portrait.jpg" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
   <link rel="stylesheet" href="styles.css" />
@@ -310,7 +310,7 @@ index = head("조재형 심장내과 | Jae Hyung Cho, MD Cardiology · Los Angel
         </div>
         <div class="hero__visual reveal">
           <div class="hero__photo">
-            <img src="assets/dr-cho.webp" alt="조재형 원장 Dr. Jae Hyung Cho" width="1500" height="1484" />
+            <img src="assets/dr-cho-portrait.webp" alt="조재형 원장 Dr. Jae Hyung Cho" width="1500" height="1484" />
           </div>
           <div class="hero__card hero__card--b">
             <span class="hero__card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 12h4l2-5 3 10 3-12 2 7h6"/></svg></span>
@@ -454,7 +454,7 @@ doctor = head("의료진 소개 | 조재형 심장내과", "조재형 원장 —
       <div class="container about__grid">
         <div class="about__media reveal">
           <div class="about__frame">
-            <img src="assets/dr-cho.webp" alt="조재형 원장 Dr. Jae Hyung Cho" width="1500" height="1484" />
+            <img src="assets/dr-cho-portrait.webp" alt="조재형 원장 Dr. Jae Hyung Cho" width="1500" height="1484" />
           </div>
           <div class="about__sign">
             <span class="about__sign-ko" data-i18n="sign">조재형</span>
